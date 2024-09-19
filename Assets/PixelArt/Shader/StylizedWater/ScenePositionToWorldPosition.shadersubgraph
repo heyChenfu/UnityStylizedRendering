@@ -34,9 +34,6 @@
             "m_Id": "667ee59dff194388bb0146521faa3a91"
         },
         {
-            "m_Id": "34db8fa757ef4d4cb5b42f3af4589082"
-        },
-        {
             "m_Id": "df3b95ed602446fe9d4784ca0e8a2ad0"
         },
         {
@@ -47,10 +44,30 @@
         },
         {
             "m_Id": "b09a9d89fbaf429fbc597459d4ace543"
+        },
+        {
+            "m_Id": "570808edec2046cdb4232b43ee520834"
         }
     ],
-    "m_GroupDatas": [],
-    "m_StickyNoteDatas": [],
+    "m_GroupDatas": [
+        {
+            "m_Id": "2fa25a00796044a2a358fe7a5f80d5fa"
+        }
+    ],
+    "m_StickyNoteDatas": [
+        {
+            "m_Id": "a4ac77cfbf7f4f80bce0b648707a8b15"
+        },
+        {
+            "m_Id": "6df957c1df9d4a58b0b100f333e3cde2"
+        },
+        {
+            "m_Id": "caa66fffd29740b7931419b78a29997a"
+        },
+        {
+            "m_Id": "26b78a3d1a1a4694afb8b4d4b57eed08"
+        }
+    ],
     "m_Edges": [
         {
             "m_OutputSlot": {
@@ -97,20 +114,6 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
-                    "m_Id": "34db8fa757ef4d4cb5b42f3af4589082"
-                },
-                "m_SlotId": 0
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "df3b95ed602446fe9d4784ca0e8a2ad0"
-                },
-                "m_SlotId": 0
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
                     "m_Id": "3fec63dcbe244e149ec6beece18da842"
                 },
                 "m_SlotId": 0
@@ -132,6 +135,20 @@
             "m_InputSlot": {
                 "m_Node": {
                     "m_Id": "b09a9d89fbaf429fbc597459d4ace543"
+                },
+                "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "570808edec2046cdb4232b43ee520834"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "df3b95ed602446fe9d4784ca0e8a2ad0"
                 },
                 "m_SlotId": 0
             }
@@ -229,17 +246,17 @@
     "m_Type": "UnityEditor.ShaderGraph.ViewVectorNode",
     "m_ObjectId": "015d5a8c62894815957de9dbd55c457c",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "2fa25a00796044a2a358fe7a5f80d5fa"
     },
     "m_Name": "View Vector",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1221.0,
-            "y": -33.000003814697269,
-            "width": 205.99993896484376,
-            "height": 131.00001525878907
+            "x": -1263.0,
+            "y": -64.00005340576172,
+            "width": 206.0,
+            "height": 131.00003051757813
         }
     },
     "m_Slots": [
@@ -384,17 +401,17 @@
     "m_Type": "UnityEditor.ShaderGraph.CameraNode",
     "m_ObjectId": "2178eef70fda42db8773be41c73d4ab1",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "2fa25a00796044a2a358fe7a5f80d5fa"
     },
     "m_Name": "Camera",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -317.0,
-            "y": 144.0,
+            "x": -99.00001525878906,
+            "y": 113.00001525878906,
             "width": 122.0,
-            "height": 245.0
+            "height": 244.99998474121095
         }
     },
     "m_Slots": [
@@ -479,20 +496,40 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "26b78a3d1a1a4694afb8b4d4b57eed08",
+    "m_Title": "最后将这个向量加到摄像机的世界坐标位置，就可以得到场景中该点的实际世界坐标",
+    "m_Content": "",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": 61.0,
+        "y": -192.0,
+        "width": 291.0,
+        "height": 123.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.SplitNode",
     "m_ObjectId": "2775157a17c74df5ac40d489422681fb",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "2fa25a00796044a2a358fe7a5f80d5fa"
     },
     "m_Name": "Split",
     "m_DrawState": {
         "m_Expanded": false,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -962.0,
-            "y": 169.0,
+            "x": -1004.0,
+            "y": 139.00001525878907,
             "width": 119.0,
-            "height": 77.0
+            "height": 76.99998474121094
         }
     },
     "m_Slots": [
@@ -526,37 +563,12 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
-    "m_ObjectId": "34db8fa757ef4d4cb5b42f3af4589082",
-    "m_Group": {
-        "m_Id": ""
-    },
-    "m_Name": "Property",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": -710.0,
-            "y": 185.00003051757813,
-            "width": 93.0,
-            "height": 34.0
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "ec90be45cab14f7aa4d04f8116b55d54"
-        }
-    ],
-    "synonyms": [],
-    "m_Precision": 0,
-    "m_PreviewExpanded": true,
-    "m_DismissedVersion": 0,
-    "m_PreviewMode": 0,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    },
-    "m_Property": {
-        "m_Id": "a35710e56784493b934af1f211893db8"
+    "m_Type": "UnityEditor.ShaderGraph.GroupData",
+    "m_ObjectId": "2fa25a00796044a2a358fe7a5f80d5fa",
+    "m_Title": "从屏幕空间位置重建的世界坐标点",
+    "m_Position": {
+        "x": -1288.0,
+        "y": -125.0
     }
 }
 
@@ -589,17 +601,17 @@
     "m_Type": "UnityEditor.ShaderGraph.ScreenPositionNode",
     "m_ObjectId": "3fec63dcbe244e149ec6beece18da842",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "2fa25a00796044a2a358fe7a5f80d5fa"
     },
     "m_Name": "Screen Position",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1160.0,
-            "y": 169.0,
+            "x": -1202.0,
+            "y": 139.00001525878907,
             "width": 145.0,
-            "height": 129.0
+            "height": 129.00001525878907
         }
     },
     "m_Slots": [
@@ -662,16 +674,16 @@
     "m_Type": "UnityEditor.ShaderGraph.MultiplyNode",
     "m_ObjectId": "4935fbb6d301418cb9ce8198df549c1a",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "2fa25a00796044a2a358fe7a5f80d5fa"
     },
     "m_Name": "Multiply",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -325.0,
-            "y": -33.0,
-            "width": 130.0,
+            "x": -224.0,
+            "y": -64.00001525878906,
+            "width": 130.00003051757813,
             "height": 118.0
         }
     },
@@ -722,6 +734,42 @@
     },
     "m_Labels": [],
     "m_Space": 2
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "570808edec2046cdb4232b43ee520834",
+    "m_Group": {
+        "m_Id": "2fa25a00796044a2a358fe7a5f80d5fa"
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -618.0,
+            "y": 287.0,
+            "width": 93.0,
+            "height": 34.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "ec8e79ddbb464b5ab6715ce9bcb0a886"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "a35710e56784493b934af1f211893db8"
+    }
 }
 
 {
@@ -851,17 +899,17 @@
     "m_Type": "UnityEditor.ShaderGraph.DivideNode",
     "m_ObjectId": "667ee59dff194388bb0146521faa3a91",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "2fa25a00796044a2a358fe7a5f80d5fa"
     },
     "m_Name": "Divide",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -720.9999389648438,
-            "y": -32.99999237060547,
-            "width": 207.99993896484376,
-            "height": 302.0
+            "x": -763.0,
+            "y": -63.0,
+            "width": 130.0,
+            "height": 118.0
         }
     },
     "m_Slots": [
@@ -885,6 +933,26 @@
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "6df957c1df9d4a58b0b100f333e3cde2",
+    "m_Title": "将方向向量除以这个 w 分量会产生一个经过透视修正的方向向量(alpha 分量通常表示视锥空间的齐次坐标 w)",
+    "m_Content": "",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -786.0,
+        "y": 78.0,
+        "width": 232.0,
+        "height": 143.0
+    },
+    "m_Group": {
+        "m_Id": "2fa25a00796044a2a358fe7a5f80d5fa"
     }
 }
 
@@ -1060,6 +1128,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "a4ac77cfbf7f4f80bce0b648707a8b15",
+    "m_Title": "计算从摄像机到该点的方向向量",
+    "m_Content": "",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1106.0,
+        "y": -184.0,
+        "width": 227.173828125,
+        "height": 100.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "a689ff0ecfc545d0b15a5fd94161f0cc",
     "m_Id": 0,
@@ -1109,10 +1197,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 119.0,
-            "y": -33.0,
-            "width": 121.0,
-            "height": 77.0
+            "x": 364.9999694824219,
+            "y": -64.0,
+            "width": 121.00006103515625,
+            "height": 76.99998474121094
         }
     },
     "m_Slots": [
@@ -1136,17 +1224,17 @@
     "m_Type": "UnityEditor.ShaderGraph.AddNode",
     "m_ObjectId": "b09a9d89fbaf429fbc597459d4ace543",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "2fa25a00796044a2a358fe7a5f80d5fa"
     },
     "m_Name": "Add",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -97.0,
-            "y": -33.0,
-            "width": 208.0,
-            "height": 302.0
+            "x": 120.99996948242188,
+            "y": -64.0,
+            "width": 130.0,
+            "height": 118.00001525878906
         }
     },
     "m_Slots": [
@@ -1234,10 +1322,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -962.0000610351563,
-            "y": -33.000003814697269,
+            "x": -1004.0000610351563,
+            "y": -64.0,
             "width": 132.0,
-            "height": 94.0
+            "height": 94.00000762939453
         }
     },
     "m_Slots": [
@@ -1258,6 +1346,26 @@
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "caa66fffd29740b7931419b78a29997a",
+    "m_Title": "通过乘以深度值，得到的向量就是从摄像机位置到该场景点的真实世界坐标距离",
+    "m_Content": "",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -260.0,
+        "y": -186.0,
+        "width": 240.0,
+        "height": 115.0
+    },
+    "m_Group": {
+        "m_Id": ""
     }
 }
 
@@ -1296,16 +1404,16 @@
     "m_Type": "UnityEditor.ShaderGraph.SceneDepthNode",
     "m_ObjectId": "df3b95ed602446fe9d4784ca0e8a2ad0",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "2fa25a00796044a2a358fe7a5f80d5fa"
     },
     "m_Name": "Scene Depth",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -591.0,
-            "y": 144.00001525878907,
-            "width": 145.0,
+            "x": -489.99993896484377,
+            "y": 246.00001525878907,
+            "width": 144.99996948242188,
             "height": 112.00001525878906
         }
     },
@@ -1396,7 +1504,7 @@
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
-    "m_ObjectId": "ec90be45cab14f7aa4d04f8116b55d54",
+    "m_ObjectId": "ec8e79ddbb464b5ab6715ce9bcb0a886",
     "m_Id": 0,
     "m_DisplayName": "UV",
     "m_SlotType": 1,

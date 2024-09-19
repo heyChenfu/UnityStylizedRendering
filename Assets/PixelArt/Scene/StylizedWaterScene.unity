@@ -737,7 +737,7 @@ Transform:
   m_GameObject: {fileID: 1215140583178126065}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: -0.85, z: 0}
+  m_LocalPosition: {x: -0, y: -0.27, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -864,7 +864,7 @@ MonoBehaviour:
   Mats:
   - {fileID: 2100000, guid: e2872d1078b8b9348a42d86ac84bf954, type: 2}
   LeafDensity: 1
-  LeafSize: 1
+  LeafSize: 1.43
   LeafOffset: 0.162
   LightOffset: 0.065
   LightOffsetDensity: 0.06
