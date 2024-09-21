@@ -66,7 +66,17 @@
             "m_Id": "41c3c96c323343d8b15ca5731f0866b3"
         }
     ],
-    "m_StickyNoteDatas": [],
+    "m_StickyNoteDatas": [
+        {
+            "m_Id": "7a35d6e5d39b4abd818c2de85606437b"
+        },
+        {
+            "m_Id": "99e64e1ed7b64ad6b3e5b292eeeb2206"
+        },
+        {
+            "m_Id": "2297afc4322743fdadf69c504de59110"
+        }
+    ],
     "m_Edges": [
         {
             "m_OutputSlot": {
@@ -480,6 +490,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "2297afc4322743fdadf69c504de59110",
+    "m_Title": "两个坐标相减则能够得到水下不透明物体距离水面的距离",
+    "m_Content": "",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -878.0,
+        "y": -192.0,
+        "width": 248.0,
+        "height": 109.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "25b8f8537f5f4a8fb86bc1052b3cea1a",
     "m_Id": 2,
@@ -844,6 +874,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "7a35d6e5d39b4abd818c2de85606437b",
+    "m_Title": "Position且Space为World, 即当前像素的世界坐标(水面位置)",
+    "m_Content": "",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1214.0,
+        "y": -191.0,
+        "width": 270.0,
+        "height": 109.19999694824219
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "8a0a25f3d8de4254b39aa8a0b3db7e6a",
     "m_Id": 2,
@@ -981,6 +1031,26 @@
         "m_SerializableColors": []
     },
     "IsFirstSlotValid": true
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "99e64e1ed7b64ad6b3e5b292eeeb2206",
+    "m_Title": "给定UV获取的屏幕坐标转换得到的世界坐标(由于使用了ScreenPosition的Alpha, 所以得到的其实是水下不透明物体的世界坐标位置)",
+    "m_Content": "",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1226.0,
+        "y": 241.0,
+        "width": 282.65753173828127,
+        "height": 151.273193359375
+    },
+    "m_Group": {
+        "m_Id": "41c3c96c323343d8b15ca5731f0866b3"
+    }
 }
 
 {
